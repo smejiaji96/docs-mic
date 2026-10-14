@@ -1,0 +1,2 @@
+# Términos prohibidos que NO son sensibles (es un archivo público).
+# Los nombres de personas van en sync/forbidden_terms.local.txt, que se queda en tu computador.
