@@ -1,0 +1,69 @@
+name: Publicar documentos
+
+# Cada vez que cambian los .md en docs/ (o se ejecuta a mano) se validan, se publican como archivos de una
+# release con enlaces permanentes y se comprueba que cualquiera puede descargarlos sin iniciar sesión.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "scripts/**"
+      - ".github/workflows/publish-docs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write        # crear la release y subir archivos con el token automático (no hace falta ningún secreto)
+
+concurrency:
+  group: publish-docs
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      OWNER: ${{ github.repository_owner }}
+      REPO: ${{ github.event.repository.name }}
+      BRANCH: ${{ github.ref_name }}
+      TAG: docs
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validar documentos (formato y privacidad)
+        run: python scripts/validate_docs.py --docs docs
+
+      - name: Comprobar que los individuales y el reporte completo coinciden
+        run: python scripts/check_consistency.py --docs docs
+
+      - name: Construir archivos y manifiesto
+        run: python scripts/build_assets.py --docs docs --out dist --owner "$OWNER" --repo "$REPO" --branch "$BRANCH" --tag "$TAG"
+
+      - name: Crear la release si no existe
+        run: |
+          set -euo pipefail
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --title "Documentos MIC" --latest \
+              --notes "Archivos Markdown del inventario de herramientas. Se actualizan automáticamente; los enlaces no cambian."
+          fi
+
+      - name: Subir archivos (reemplaza los anteriores)
+        run: |
+          set -euo pipefail
+          gh release upload "$TAG" dist/* --clobber
+
+      - name: Quitar de la release los archivos que ya no existen
+        run: |
+          set -euo pipefail
+          gh release view "$TAG" --json assets --jq '.assets[].name' | while read -r name; do
+            if [ ! -f "dist/$name" ]; then
+              gh release delete-asset "$TAG" "$name" --yes
+            fi
+          done
+
+      - name: Verificar la descarga anónima
+        run: python scripts/check_public_urls.py --manifest dist/manifest.json --retries 6 --wait 10
