@@ -1,4 +1,4 @@
-# SDD · DSD STORE MASTER
+# SDD · DSD Store Master
 
 ## Resumen
 Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1.
@@ -82,14 +82,14 @@ Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas po
 
 ## 5. Tareas
 
-- [ ] T-005: Pasar «DSD STORE MASTER» al servidor como la única maestra de tiendas, sacarla del OneDrive personal, revisar permisos y anotar quién la actualiza y cuándo (Por hacer · Después)
+- [ ] T-005: Pasar «DSD Store Master» al servidor como la única maestra de tiendas, sacarla del OneDrive personal, revisar permisos y anotar quién la actualiza y cuándo (Por hacer · Después)
   - Se entrega cuando: Está en el servidor, muestra su última actualización y quién tiene acceso, y no queda nada en cuentas personales.
 
 ## 6. Plan de acción
 
 | # | Qué se hace | Quién | Cuándo |
 |---|---|---|---|
-| 1 | Cargar las tareas de «DSD STORE MASTER» (T-005) en la lista de trabajo | Responsable del inventario | Primer día |
+| 1 | Cargar las tareas de «DSD Store Master» (T-005) en la lista de trabajo | Responsable del inventario | Primer día |
 | 2 | Hacer primero las más importantes: T-005 | Dueño de la herramienta (su creador), con su suplente | Primera semana |
 | 3 | Probar el resultado: confirmar quién tiene acceso y que no quede nada en cuentas personales | Dueño de la herramienta | Primera semana |
 | 4 | Anotar el suplente en la ficha y cerrar los 3 pendientes de documentación | Dueño de la herramienta | Primeras dos semanas |

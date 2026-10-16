@@ -1,4 +1,4 @@
-# SDD · Sprouts Execution Report (Sporuts Audit)
+# SDD · Sprouts Execution Report
 
 ## Resumen
 Su enlace es público (cualquiera con el enlace lo abre); se actualiza a mano (última: semana 40). Tareas por hacer: 5.
@@ -48,7 +48,7 @@ Su enlace es público (cualquiera con el enlace lo abre); se actualiza a mano (�
 
 | ID | Criterio | Cómo medirlo aquí | Estado |
 |---|---|---|---|
-| SC-001 | El 100 % de los reportes con información sensible exigen inicio de sesión; ninguno se abre solo con un enlace, salvo excepciones aprobadas. | Abrir «Sprouts Execution Report (Sporuts Audit)» en una ventana privada: debe pedir cuenta. | Por hacer |
+| SC-001 | El 100 % de los reportes con información sensible exigen inicio de sesión; ninguno se abre solo con un enlace, salvo excepciones aprobadas. | Abrir «Sprouts Execution Report» en una ventana privada: debe pedir cuenta. | Por hacer |
 | SC-002 | El 100 % de los reportes se actualiza por programación y muestra la fecha y hora de su última actualización. | Su última actualización coincide con la programación y se ve la fecha y hora. | Por hacer |
 | SC-005 | Una actualización fallida se detecta por su dueño en menos de 1 día hábil. | Una falla de prueba avisa al dueño y al suplente. | Por confirmar |
 | SC-003 | El 100 % de las 17 herramientas tiene un suplente registrado en 30 días (el dueño, su creador, ya está registrado). | Su ficha muestra el suplente. | Por hacer |
@@ -97,22 +97,22 @@ Su enlace es público (cualquiera con el enlace lo abre); se actualiza a mano (�
 
 ## 5. Tareas
 
-- [ ] T-001: Pasar «Sprouts Execution Report (Sporuts Audit)» a acceso con cuenta de la empresa desde el sitio único y retirar su enlace público (Por hacer · Primero)
+- [ ] T-001: Pasar «Sprouts Execution Report» a acceso con cuenta de la empresa desde el sitio único y retirar su enlace público (Por hacer · Primero)
   - Se entrega cuando: Abre solo con cuenta y desde un solo sitio; su enlace público ya no abre sin cuenta.
-- [ ] T-002: Limpiar «Sprouts Execution Report (Sporuts Audit)»: ocultar la página «Remarks» (Por hacer · Después)
+- [ ] T-002: Limpiar «Sprouts Execution Report»: ocultar la página «Remarks» (Por hacer · Después)
   - Se entrega cuando: No quedan comentarios libres ni páginas ocultas sin explicación.
-- [ ] T-003: Programar la actualización de «Sprouts Execution Report (Sporuts Audit)» (Por hacer · Primero)
+- [ ] T-003: Programar la actualización de «Sprouts Execution Report» (Por hacer · Primero)
   - Se entrega cuando: Se actualiza sola y cada página muestra su fecha.
-- [ ] T-004: Confirmar si «Sprouts Execution Report (Sporuts Audit)» ha fallado y activar el aviso de fallas al dueño y al suplente (Por hacer · Después)
+- [ ] T-004: Confirmar si «Sprouts Execution Report» ha fallado y activar el aviso de fallas al dueño y al suplente (Por hacer · Después)
   - Se entrega cuando: Se sabe si ha fallado y una falla de prueba avisa a ambos.
-- [ ] T-007: Agregar al glosario lo de «Sprouts Execution Report (Sporuts Audit)»: los estándares y el % de cumplimiento (Por hacer · Al final)
+- [ ] T-007: Agregar al glosario lo de «Sprouts Execution Report»: los estándares y el % de cumplimiento (Por hacer · Al final)
   - Se entrega cuando: Cada término tiene una definición escrita.
 
 ## 6. Plan de acción
 
 | # | Qué se hace | Quién | Cuándo |
 |---|---|---|---|
-| 1 | Cargar las tareas de «Sprouts Execution Report (Sporuts Audit)» (T-001, T-002, T-003, T-004, T-007) en la lista de trabajo | Responsable del inventario | Primer día |
+| 1 | Cargar las tareas de «Sprouts Execution Report» (T-001, T-002, T-003, T-004, T-007) en la lista de trabajo | Responsable del inventario | Primer día |
 | 2 | Hacer primero las más importantes: T-001, T-003 | Dueño de la herramienta (su creador), con su suplente | Primera semana |
 | 3 | Probar el resultado: abrirlo en una ventana privada y confirmar que pide cuenta | Dueño de la herramienta | Primera semana |
 | 4 | Anotar el suplente en la ficha y cerrar el pendiente de documentación | Dueño de la herramienta | Primeras dos semanas |

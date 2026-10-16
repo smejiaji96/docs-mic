@@ -1,4 +1,4 @@
-# SDD · DSD ROUTE MASTER
+# SDD · DSD Route Master
 
 ## Summary
 It asks for a company account and permission; it is updated as needed. Tasks to do: 1.
@@ -82,14 +82,14 @@ It asks for a company account and permission; it is updated as needed. Tasks to 
 
 ## 5. Tasks
 
-- [ ] T-005: Move “DSD ROUTE MASTER” to the server using the single master (and removing the copy), review permissions and note who updates it and when (To do · Next)
+- [ ] T-005: Move “DSD Route Master” to the server using the single master (and removing the copy), review permissions and note who updates it and when (To do · Next)
   - Done when: It is on the server, shows its last update and who has access, and nothing remains in personal accounts.
 
 ## 6. Action plan
 
 | # | What is done | Who | When |
 |---|---|---|---|
-| 1 | Load the tasks of “DSD ROUTE MASTER” (T-005) into the work list | Inventory owner | Day one |
+| 1 | Load the tasks of “DSD Route Master” (T-005) into the work list | Inventory owner | Day one |
 | 2 | Do the most important first: T-005 | Tool owner (its creator), with the backup | First week |
 | 3 | Check the result: confirm who has access and that nothing remains in personal accounts | Tool owner | First week |
 | 4 | Note the backup in the record and close the 3 pending documentation items | Tool owner | First two weeks |

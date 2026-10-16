@@ -11,7 +11,7 @@ Análisis general, resumen y análisis de cada una de las 17 herramientas. Versi
 5. Glosario en palabras simples
 6. Plan de acción para cargar la lista de trabajo: 001-secure-reliable-mic-tools
 7. Resumen de cada herramienta
-8. SDD · Sprouts Execution Report (Sporuts Audit)
+8. SDD · Sprouts Execution Report
 9. SDD · Performance Audit Walmart
 10. SDD · SPR Sales Report
 11. SDD · Walmart Audit
@@ -24,9 +24,9 @@ Análisis general, resumen y análisis de cada una de las 17 herramientas. Versi
 18. SDD · Incident Reporting Route
 19. SDD · Walmart Audit
 20. SDD · Time Correction
-21. SDD · DSD STORE MASTER
-22. SDD · DSD ROUTE MASTER
-23. SDD · DSD FS ROUE MASTER
+21. SDD · DSD Store Master
+22. SDD · DSD Route Master
+23. SDD · DSD FS Route Master
 24. SDD · Plan de visitas (Unify)
 
 ---
@@ -627,7 +627,7 @@ mic-tools-governance/
 
 | Herramienta | Resumen | Tareas por hacer |
 |---|---|---|
-| Sprouts Execution Report (Sporuts Audit) | Su enlace es público (cualquiera con el enlace lo abre); se actualiza a mano (última: semana 40). Tareas por hacer: 5. | 5 |
+| Sprouts Execution Report | Su enlace es público (cualquiera con el enlace lo abre); se actualiza a mano (última: semana 40). Tareas por hacer: 5. | 5 |
 | Performance Audit Walmart | Su enlace es público (cualquiera con el enlace lo abre); se actualiza a mano (última: 5 de octubre). Tareas por hacer: 4. | 4 |
 | SPR Sales Report | Su enlace es público (cualquiera con el enlace lo abre); se actualiza por programación (última: 12 de octubre). Tareas por hacer: 4. | 4 |
 | Walmart Audit | Su enlace es público (cualquiera con el enlace lo abre); se actualiza por programación (última: 12 de octubre). Tareas por hacer: 3. | 3 |
@@ -640,14 +640,14 @@ mic-tools-governance/
 | Incident Reporting Route | Cualquiera con el enlace puede responder; se llena cuando ocurre el evento. Tareas por hacer: 1. | 1 |
 | Walmart Audit | Cualquiera con el enlace puede responder; se llena cuando ocurre el evento. Tareas por hacer: 1. | 1 |
 | Time Correction | Cualquiera con el enlace puede responder; se llena cuando ocurre el evento. Tareas por hacer: 1. | 1 |
-| DSD STORE MASTER | Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1. | 1 |
-| DSD ROUTE MASTER | Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1. | 1 |
-| DSD FS ROUE MASTER | Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1. | 1 |
+| DSD Store Master | Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1. | 1 |
+| DSD Route Master | Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1. | 1 |
+| DSD FS Route Master | Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1. | 1 |
 | Plan de visitas (Unify) | Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1. | 1 |
 
 ---
 
-# SDD · Sprouts Execution Report (Sporuts Audit)
+# SDD · Sprouts Execution Report
 
 ## Resumen
 Su enlace es público (cualquiera con el enlace lo abre); se actualiza a mano (última: semana 40). Tareas por hacer: 5.
@@ -697,7 +697,7 @@ Su enlace es público (cualquiera con el enlace lo abre); se actualiza a mano (�
 
 | ID | Criterio | Cómo medirlo aquí | Estado |
 |---|---|---|---|
-| SC-001 | El 100 % de los reportes con información sensible exigen inicio de sesión; ninguno se abre solo con un enlace, salvo excepciones aprobadas. | Abrir «Sprouts Execution Report (Sporuts Audit)» en una ventana privada: debe pedir cuenta. | Por hacer |
+| SC-001 | El 100 % de los reportes con información sensible exigen inicio de sesión; ninguno se abre solo con un enlace, salvo excepciones aprobadas. | Abrir «Sprouts Execution Report» en una ventana privada: debe pedir cuenta. | Por hacer |
 | SC-002 | El 100 % de los reportes se actualiza por programación y muestra la fecha y hora de su última actualización. | Su última actualización coincide con la programación y se ve la fecha y hora. | Por hacer |
 | SC-005 | Una actualización fallida se detecta por su dueño en menos de 1 día hábil. | Una falla de prueba avisa al dueño y al suplente. | Por confirmar |
 | SC-003 | El 100 % de las 17 herramientas tiene un suplente registrado en 30 días (el dueño, su creador, ya está registrado). | Su ficha muestra el suplente. | Por hacer |
@@ -746,22 +746,22 @@ Su enlace es público (cualquiera con el enlace lo abre); se actualiza a mano (�
 
 ## 5. Tareas
 
-- [ ] T-001: Pasar «Sprouts Execution Report (Sporuts Audit)» a acceso con cuenta de la empresa desde el sitio único y retirar su enlace público (Por hacer · Primero)
+- [ ] T-001: Pasar «Sprouts Execution Report» a acceso con cuenta de la empresa desde el sitio único y retirar su enlace público (Por hacer · Primero)
   - Se entrega cuando: Abre solo con cuenta y desde un solo sitio; su enlace público ya no abre sin cuenta.
-- [ ] T-002: Limpiar «Sprouts Execution Report (Sporuts Audit)»: ocultar la página «Remarks» (Por hacer · Después)
+- [ ] T-002: Limpiar «Sprouts Execution Report»: ocultar la página «Remarks» (Por hacer · Después)
   - Se entrega cuando: No quedan comentarios libres ni páginas ocultas sin explicación.
-- [ ] T-003: Programar la actualización de «Sprouts Execution Report (Sporuts Audit)» (Por hacer · Primero)
+- [ ] T-003: Programar la actualización de «Sprouts Execution Report» (Por hacer · Primero)
   - Se entrega cuando: Se actualiza sola y cada página muestra su fecha.
-- [ ] T-004: Confirmar si «Sprouts Execution Report (Sporuts Audit)» ha fallado y activar el aviso de fallas al dueño y al suplente (Por hacer · Después)
+- [ ] T-004: Confirmar si «Sprouts Execution Report» ha fallado y activar el aviso de fallas al dueño y al suplente (Por hacer · Después)
   - Se entrega cuando: Se sabe si ha fallado y una falla de prueba avisa a ambos.
-- [ ] T-007: Agregar al glosario lo de «Sprouts Execution Report (Sporuts Audit)»: los estándares y el % de cumplimiento (Por hacer · Al final)
+- [ ] T-007: Agregar al glosario lo de «Sprouts Execution Report»: los estándares y el % de cumplimiento (Por hacer · Al final)
   - Se entrega cuando: Cada término tiene una definición escrita.
 
 ## 6. Plan de acción
 
 | # | Qué se hace | Quién | Cuándo |
 |---|---|---|---|
-| 1 | Cargar las tareas de «Sprouts Execution Report (Sporuts Audit)» (T-001, T-002, T-003, T-004, T-007) en la lista de trabajo | Responsable del inventario | Primer día |
+| 1 | Cargar las tareas de «Sprouts Execution Report» (T-001, T-002, T-003, T-004, T-007) en la lista de trabajo | Responsable del inventario | Primer día |
 | 2 | Hacer primero las más importantes: T-001, T-003 | Dueño de la herramienta (su creador), con su suplente | Primera semana |
 | 3 | Probar el resultado: abrirlo en una ventana privada y confirmar que pide cuenta | Dueño de la herramienta | Primera semana |
 | 4 | Anotar el suplente en la ficha y cerrar el pendiente de documentación | Dueño de la herramienta | Primeras dos semanas |
@@ -2083,7 +2083,7 @@ Cualquiera con el enlace puede responder; se llena cuando ocurre el evento. Tare
 
 ---
 
-# SDD · DSD STORE MASTER
+# SDD · DSD Store Master
 
 ## Resumen
 Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1.
@@ -2167,14 +2167,14 @@ Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas po
 
 ## 5. Tareas
 
-- [ ] T-005: Pasar «DSD STORE MASTER» al servidor como la única maestra de tiendas, sacarla del OneDrive personal, revisar permisos y anotar quién la actualiza y cuándo (Por hacer · Después)
+- [ ] T-005: Pasar «DSD Store Master» al servidor como la única maestra de tiendas, sacarla del OneDrive personal, revisar permisos y anotar quién la actualiza y cuándo (Por hacer · Después)
   - Se entrega cuando: Está en el servidor, muestra su última actualización y quién tiene acceso, y no queda nada en cuentas personales.
 
 ## 6. Plan de acción
 
 | # | Qué se hace | Quién | Cuándo |
 |---|---|---|---|
-| 1 | Cargar las tareas de «DSD STORE MASTER» (T-005) en la lista de trabajo | Responsable del inventario | Primer día |
+| 1 | Cargar las tareas de «DSD Store Master» (T-005) en la lista de trabajo | Responsable del inventario | Primer día |
 | 2 | Hacer primero las más importantes: T-005 | Dueño de la herramienta (su creador), con su suplente | Primera semana |
 | 3 | Probar el resultado: confirmar quién tiene acceso y que no quede nada en cuentas personales | Dueño de la herramienta | Primera semana |
 | 4 | Anotar el suplente en la ficha y cerrar los 3 pendientes de documentación | Dueño de la herramienta | Primeras dos semanas |
@@ -2182,7 +2182,7 @@ Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas po
 
 ---
 
-# SDD · DSD ROUTE MASTER
+# SDD · DSD Route Master
 
 ## Resumen
 Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1.
@@ -2266,14 +2266,14 @@ Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas po
 
 ## 5. Tareas
 
-- [ ] T-005: Pasar «DSD ROUTE MASTER» al servidor usando la maestra única (y retirando la copia), revisar permisos y anotar quién la actualiza y cuándo (Por hacer · Después)
+- [ ] T-005: Pasar «DSD Route Master» al servidor usando la maestra única (y retirando la copia), revisar permisos y anotar quién la actualiza y cuándo (Por hacer · Después)
   - Se entrega cuando: Está en el servidor, muestra su última actualización y quién tiene acceso, y no queda nada en cuentas personales.
 
 ## 6. Plan de acción
 
 | # | Qué se hace | Quién | Cuándo |
 |---|---|---|---|
-| 1 | Cargar las tareas de «DSD ROUTE MASTER» (T-005) en la lista de trabajo | Responsable del inventario | Primer día |
+| 1 | Cargar las tareas de «DSD Route Master» (T-005) en la lista de trabajo | Responsable del inventario | Primer día |
 | 2 | Hacer primero las más importantes: T-005 | Dueño de la herramienta (su creador), con su suplente | Primera semana |
 | 3 | Probar el resultado: confirmar quién tiene acceso y que no quede nada en cuentas personales | Dueño de la herramienta | Primera semana |
 | 4 | Anotar el suplente en la ficha y cerrar los 3 pendientes de documentación | Dueño de la herramienta | Primeras dos semanas |
@@ -2281,7 +2281,7 @@ Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas po
 
 ---
 
-# SDD · DSD FS ROUE MASTER
+# SDD · DSD FS Route Master
 
 ## Resumen
 Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas por hacer: 1.
@@ -2365,14 +2365,14 @@ Pide cuenta de la empresa y permiso; se actualiza según la necesidad. Tareas po
 
 ## 5. Tareas
 
-- [ ] T-005: Pasar «DSD FS ROUE MASTER» al servidor usando la maestra única (y retirando la copia), revisar permisos y anotar quién la actualiza y cuándo (Por hacer · Después)
+- [ ] T-005: Pasar «DSD FS Route Master» al servidor usando la maestra única (y retirando la copia), revisar permisos y anotar quién la actualiza y cuándo (Por hacer · Después)
   - Se entrega cuando: Está en el servidor, muestra su última actualización y quién tiene acceso, y no queda nada en cuentas personales.
 
 ## 6. Plan de acción
 
 | # | Qué se hace | Quién | Cuándo |
 |---|---|---|---|
-| 1 | Cargar las tareas de «DSD FS ROUE MASTER» (T-005) en la lista de trabajo | Responsable del inventario | Primer día |
+| 1 | Cargar las tareas de «DSD FS Route Master» (T-005) en la lista de trabajo | Responsable del inventario | Primer día |
 | 2 | Hacer primero las más importantes: T-005 | Dueño de la herramienta (su creador), con su suplente | Primera semana |
 | 3 | Probar el resultado: confirmar quién tiene acceso y que no quede nada en cuentas personales | Dueño de la herramienta | Primera semana |
 | 4 | Anotar el suplente en la ficha y cerrar los 3 pendientes de documentación | Dueño de la herramienta | Primeras dos semanas |

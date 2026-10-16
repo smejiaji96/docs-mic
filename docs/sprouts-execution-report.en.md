@@ -1,4 +1,4 @@
-# SDD · Sprouts Execution Report (Sporuts Audit)
+# SDD · Sprouts Execution Report
 
 ## Summary
 Its link is public (anyone with the link opens it); it is updated by hand (last: week 40). Tasks to do: 5.
@@ -48,7 +48,7 @@ Its link is public (anyone with the link opens it); it is updated by hand (last:
 
 | ID | Criterion | How to measure it here | Status |
 |---|---|---|---|
-| SC-001 | 100% of reports with sensitive information require sign-in; none opens with just a link, except approved exceptions. | Open “Sprouts Execution Report (Sporuts Audit)” in a private window: it must ask for an account. | To do |
+| SC-001 | 100% of reports with sensitive information require sign-in; none opens with just a link, except approved exceptions. | Open “Sprouts Execution Report” in a private window: it must ask for an account. | To do |
 | SC-002 | 100% of reports refresh on a schedule and show the date and time of their last refresh. | Its last update matches the schedule and the date and time are visible. | To do |
 | SC-005 | A failed refresh is detected by its owner in less than 1 business day. | A test failure notifies the owner and the backup. | To confirm |
 | SC-003 | 100% of the 17 tools have a registered backup within 30 days (the owner, its creator, is already recorded). | Its record shows the backup. | To do |
@@ -97,22 +97,22 @@ Its link is public (anyone with the link opens it); it is updated by hand (last:
 
 ## 5. Tasks
 
-- [ ] T-001: Move “Sprouts Execution Report (Sporuts Audit)” to company-account access from the single site and withdraw its public link (To do · First)
+- [ ] T-001: Move “Sprouts Execution Report” to company-account access from the single site and withdraw its public link (To do · First)
   - Done when: It opens only with an account and from a single site; its public link no longer opens without an account.
-- [ ] T-002: Clean up “Sprouts Execution Report (Sporuts Audit)”: hide the “Remarks” page (To do · Next)
+- [ ] T-002: Clean up “Sprouts Execution Report”: hide the “Remarks” page (To do · Next)
   - Done when: No free comments or unexplained hidden pages remain.
-- [ ] T-003: Schedule the update of “Sprouts Execution Report (Sporuts Audit)” (To do · First)
+- [ ] T-003: Schedule the update of “Sprouts Execution Report” (To do · First)
   - Done when: It updates by itself and every page shows its date.
-- [ ] T-004: Confirm whether “Sprouts Execution Report (Sporuts Audit)” has failed and turn on the failure notice to the owner and the backup (To do · Next)
+- [ ] T-004: Confirm whether “Sprouts Execution Report” has failed and turn on the failure notice to the owner and the backup (To do · Next)
   - Done when: It is known whether it has failed and a test failure notifies both.
-- [ ] T-007: Add to the glossary what concerns “Sprouts Execution Report (Sporuts Audit)”: the standards and the compliance % (To do · Last)
+- [ ] T-007: Add to the glossary what concerns “Sprouts Execution Report”: the standards and the compliance % (To do · Last)
   - Done when: Each term has a written definition.
 
 ## 6. Action plan
 
 | # | What is done | Who | When |
 |---|---|---|---|
-| 1 | Load the tasks of “Sprouts Execution Report (Sporuts Audit)” (T-001, T-002, T-003, T-004, T-007) into the work list | Inventory owner | Day one |
+| 1 | Load the tasks of “Sprouts Execution Report” (T-001, T-002, T-003, T-004, T-007) into the work list | Inventory owner | Day one |
 | 2 | Do the most important first: T-001, T-003 | Tool owner (its creator), with the backup | First week |
 | 3 | Check the result: open it in a private window and confirm it asks for an account | Tool owner | First week |
 | 4 | Note the backup in the record and close the pending documentation item | Tool owner | First two weeks |

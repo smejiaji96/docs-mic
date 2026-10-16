@@ -11,7 +11,7 @@ General analysis, summary and the analysis of each of the 17 tools. Version 1.14
 5. Glossary in plain words
 6. Action plan to load the work list: 001-secure-reliable-mic-tools
 7. Summary of each tool
-8. SDD · Sprouts Execution Report (Sporuts Audit)
+8. SDD · Sprouts Execution Report
 9. SDD · Performance Audit Walmart
 10. SDD · SPR Sales Report
 11. SDD · Walmart Audit
@@ -24,9 +24,9 @@ General analysis, summary and the analysis of each of the 17 tools. Version 1.14
 18. SDD · Incident Reporting Route
 19. SDD · Walmart Audit
 20. SDD · Time Correction
-21. SDD · DSD STORE MASTER
-22. SDD · DSD ROUTE MASTER
-23. SDD · DSD FS ROUE MASTER
+21. SDD · DSD Store Master
+22. SDD · DSD Route Master
+23. SDD · DSD FS Route Master
 24. SDD · Plan de visitas (Unify)
 
 ---
@@ -627,7 +627,7 @@ mic-tools-governance/
 
 | Tool | Summary | Tasks to do |
 |---|---|---|
-| Sprouts Execution Report (Sporuts Audit) | Its link is public (anyone with the link opens it); it is updated by hand (last: week 40). Tasks to do: 5. | 5 |
+| Sprouts Execution Report | Its link is public (anyone with the link opens it); it is updated by hand (last: week 40). Tasks to do: 5. | 5 |
 | Performance Audit Walmart | Its link is public (anyone with the link opens it); it is updated by hand (last: October 5). Tasks to do: 4. | 4 |
 | SPR Sales Report | Its link is public (anyone with the link opens it); it updates on a schedule (last: October 12). Tasks to do: 4. | 4 |
 | Walmart Audit | Its link is public (anyone with the link opens it); it updates on a schedule (last: October 12). Tasks to do: 3. | 3 |
@@ -640,14 +640,14 @@ mic-tools-governance/
 | Incident Reporting Route | Anyone with the link can respond; it is filled in when the event happens. Tasks to do: 1. | 1 |
 | Walmart Audit | Anyone with the link can respond; it is filled in when the event happens. Tasks to do: 1. | 1 |
 | Time Correction | Anyone with the link can respond; it is filled in when the event happens. Tasks to do: 1. | 1 |
-| DSD STORE MASTER | It asks for a company account and permission; it is updated as needed. Tasks to do: 1. | 1 |
-| DSD ROUTE MASTER | It asks for a company account and permission; it is updated as needed. Tasks to do: 1. | 1 |
-| DSD FS ROUE MASTER | It asks for a company account and permission; it is updated as needed. Tasks to do: 1. | 1 |
+| DSD Store Master | It asks for a company account and permission; it is updated as needed. Tasks to do: 1. | 1 |
+| DSD Route Master | It asks for a company account and permission; it is updated as needed. Tasks to do: 1. | 1 |
+| DSD FS Route Master | It asks for a company account and permission; it is updated as needed. Tasks to do: 1. | 1 |
 | Plan de visitas (Unify) | It asks for a company account and permission; it is updated as needed. Tasks to do: 1. | 1 |
 
 ---
 
-# SDD · Sprouts Execution Report (Sporuts Audit)
+# SDD · Sprouts Execution Report
 
 ## Summary
 Its link is public (anyone with the link opens it); it is updated by hand (last: week 40). Tasks to do: 5.
@@ -697,7 +697,7 @@ Its link is public (anyone with the link opens it); it is updated by hand (last:
 
 | ID | Criterion | How to measure it here | Status |
 |---|---|---|---|
-| SC-001 | 100% of reports with sensitive information require sign-in; none opens with just a link, except approved exceptions. | Open “Sprouts Execution Report (Sporuts Audit)” in a private window: it must ask for an account. | To do |
+| SC-001 | 100% of reports with sensitive information require sign-in; none opens with just a link, except approved exceptions. | Open “Sprouts Execution Report” in a private window: it must ask for an account. | To do |
 | SC-002 | 100% of reports refresh on a schedule and show the date and time of their last refresh. | Its last update matches the schedule and the date and time are visible. | To do |
 | SC-005 | A failed refresh is detected by its owner in less than 1 business day. | A test failure notifies the owner and the backup. | To confirm |
 | SC-003 | 100% of the 17 tools have a registered backup within 30 days (the owner, its creator, is already recorded). | Its record shows the backup. | To do |
@@ -746,22 +746,22 @@ Its link is public (anyone with the link opens it); it is updated by hand (last:
 
 ## 5. Tasks
 
-- [ ] T-001: Move “Sprouts Execution Report (Sporuts Audit)” to company-account access from the single site and withdraw its public link (To do · First)
+- [ ] T-001: Move “Sprouts Execution Report” to company-account access from the single site and withdraw its public link (To do · First)
   - Done when: It opens only with an account and from a single site; its public link no longer opens without an account.
-- [ ] T-002: Clean up “Sprouts Execution Report (Sporuts Audit)”: hide the “Remarks” page (To do · Next)
+- [ ] T-002: Clean up “Sprouts Execution Report”: hide the “Remarks” page (To do · Next)
   - Done when: No free comments or unexplained hidden pages remain.
-- [ ] T-003: Schedule the update of “Sprouts Execution Report (Sporuts Audit)” (To do · First)
+- [ ] T-003: Schedule the update of “Sprouts Execution Report” (To do · First)
   - Done when: It updates by itself and every page shows its date.
-- [ ] T-004: Confirm whether “Sprouts Execution Report (Sporuts Audit)” has failed and turn on the failure notice to the owner and the backup (To do · Next)
+- [ ] T-004: Confirm whether “Sprouts Execution Report” has failed and turn on the failure notice to the owner and the backup (To do · Next)
   - Done when: It is known whether it has failed and a test failure notifies both.
-- [ ] T-007: Add to the glossary what concerns “Sprouts Execution Report (Sporuts Audit)”: the standards and the compliance % (To do · Last)
+- [ ] T-007: Add to the glossary what concerns “Sprouts Execution Report”: the standards and the compliance % (To do · Last)
   - Done when: Each term has a written definition.
 
 ## 6. Action plan
 
 | # | What is done | Who | When |
 |---|---|---|---|
-| 1 | Load the tasks of “Sprouts Execution Report (Sporuts Audit)” (T-001, T-002, T-003, T-004, T-007) into the work list | Inventory owner | Day one |
+| 1 | Load the tasks of “Sprouts Execution Report” (T-001, T-002, T-003, T-004, T-007) into the work list | Inventory owner | Day one |
 | 2 | Do the most important first: T-001, T-003 | Tool owner (its creator), with the backup | First week |
 | 3 | Check the result: open it in a private window and confirm it asks for an account | Tool owner | First week |
 | 4 | Note the backup in the record and close the pending documentation item | Tool owner | First two weeks |
@@ -2083,7 +2083,7 @@ Anyone with the link can respond; it is filled in when the event happens. Tasks 
 
 ---
 
-# SDD · DSD STORE MASTER
+# SDD · DSD Store Master
 
 ## Summary
 It asks for a company account and permission; it is updated as needed. Tasks to do: 1.
@@ -2167,14 +2167,14 @@ It asks for a company account and permission; it is updated as needed. Tasks to 
 
 ## 5. Tasks
 
-- [ ] T-005: Move “DSD STORE MASTER” to the server as the single store master, take it out of the personal OneDrive, review permissions and note who updates it and when (To do · Next)
+- [ ] T-005: Move “DSD Store Master” to the server as the single store master, take it out of the personal OneDrive, review permissions and note who updates it and when (To do · Next)
   - Done when: It is on the server, shows its last update and who has access, and nothing remains in personal accounts.
 
 ## 6. Action plan
 
 | # | What is done | Who | When |
 |---|---|---|---|
-| 1 | Load the tasks of “DSD STORE MASTER” (T-005) into the work list | Inventory owner | Day one |
+| 1 | Load the tasks of “DSD Store Master” (T-005) into the work list | Inventory owner | Day one |
 | 2 | Do the most important first: T-005 | Tool owner (its creator), with the backup | First week |
 | 3 | Check the result: confirm who has access and that nothing remains in personal accounts | Tool owner | First week |
 | 4 | Note the backup in the record and close the 3 pending documentation items | Tool owner | First two weeks |
@@ -2182,7 +2182,7 @@ It asks for a company account and permission; it is updated as needed. Tasks to 
 
 ---
 
-# SDD · DSD ROUTE MASTER
+# SDD · DSD Route Master
 
 ## Summary
 It asks for a company account and permission; it is updated as needed. Tasks to do: 1.
@@ -2266,14 +2266,14 @@ It asks for a company account and permission; it is updated as needed. Tasks to 
 
 ## 5. Tasks
 
-- [ ] T-005: Move “DSD ROUTE MASTER” to the server using the single master (and removing the copy), review permissions and note who updates it and when (To do · Next)
+- [ ] T-005: Move “DSD Route Master” to the server using the single master (and removing the copy), review permissions and note who updates it and when (To do · Next)
   - Done when: It is on the server, shows its last update and who has access, and nothing remains in personal accounts.
 
 ## 6. Action plan
 
 | # | What is done | Who | When |
 |---|---|---|---|
-| 1 | Load the tasks of “DSD ROUTE MASTER” (T-005) into the work list | Inventory owner | Day one |
+| 1 | Load the tasks of “DSD Route Master” (T-005) into the work list | Inventory owner | Day one |
 | 2 | Do the most important first: T-005 | Tool owner (its creator), with the backup | First week |
 | 3 | Check the result: confirm who has access and that nothing remains in personal accounts | Tool owner | First week |
 | 4 | Note the backup in the record and close the 3 pending documentation items | Tool owner | First two weeks |
@@ -2281,7 +2281,7 @@ It asks for a company account and permission; it is updated as needed. Tasks to 
 
 ---
 
-# SDD · DSD FS ROUE MASTER
+# SDD · DSD FS Route Master
 
 ## Summary
 It asks for a company account and permission; it is updated as needed. Tasks to do: 1.
@@ -2365,14 +2365,14 @@ It asks for a company account and permission; it is updated as needed. Tasks to 
 
 ## 5. Tasks
 
-- [ ] T-005: Move “DSD FS ROUE MASTER” to the server using the single master (and removing the copy), review permissions and note who updates it and when (To do · Next)
+- [ ] T-005: Move “DSD FS Route Master” to the server using the single master (and removing the copy), review permissions and note who updates it and when (To do · Next)
   - Done when: It is on the server, shows its last update and who has access, and nothing remains in personal accounts.
 
 ## 6. Action plan
 
 | # | What is done | Who | When |
 |---|---|---|---|
-| 1 | Load the tasks of “DSD FS ROUE MASTER” (T-005) into the work list | Inventory owner | Day one |
+| 1 | Load the tasks of “DSD FS Route Master” (T-005) into the work list | Inventory owner | Day one |
 | 2 | Do the most important first: T-005 | Tool owner (its creator), with the backup | First week |
 | 3 | Check the result: confirm who has access and that nothing remains in personal accounts | Tool owner | First week |
 | 4 | Note the backup in the record and close the 3 pending documentation items | Tool owner | First two weeks |
