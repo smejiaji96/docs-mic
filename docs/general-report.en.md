@@ -1,6 +1,6 @@
 # MIC tool inventory · General report (English)
 
-Principles, what is needed, plan, tasks, glossary and action plan. Version 1.14. It contains no people names, emails, phone numbers, rates or links; it is internal information.
+Principles, what is needed, plan, tasks, glossary and action plan. Version 1.20. It contains no people names, emails, phone numbers, rates or links; it is internal information.
 
 ## Contents
 
@@ -277,7 +277,7 @@ SC-006: The pending documentation lines drop from 32 to fewer than 10.
 - The current inventory documentation is the baseline.
 - The people who use the dashboards (district managers, regional managers, field supervisors and administration) should have a company email with the Falcon Farms email; this is verified when the access groups are created.
 - The people who fill in the forms should have a company account; this is verified before limiting access. Today they do not sign in.
-- The 5 applications are outside this version.
+- The 4 remaining applications are outside this version; FIT is analysed separately.
 - Cost to Serve is already consumed through the Portal and its direct link can be withdrawn, according to the inventory owner.
 - The Excel files are updated as needed, not on a schedule.
 - Managers need access to all the information in their dashboards.
@@ -296,7 +296,7 @@ SC-006: The pending documentation lines drop from 32 to fewer than 10.
 - Access, refresh, owners, sources, forms and glossary.
 
 ### Out of Scope
-- The 5 applications (Tallie, AFS Console, Staffing Request, F.I.T. and Portal).
+- The 4 remaining applications (Tallie, AFS Console, Staffing Request and Portal). FIT has its own analysis, separate from this one.
 - Rebuilding the reports or changing the definition of business figures.
 
 ### Future Considerations

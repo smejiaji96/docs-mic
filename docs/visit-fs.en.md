@@ -6,9 +6,9 @@ Its link is public (anyone with the link opens it); it updates on a schedule (la
 ## 1. Project principles
 
 **Starting point**
-- Vulnerability (Alto): Public with no sign-in; shows compliance and hours per supervisor
-- Stability (Bajo): Daily scheduled refresh
-- Scalability (Bajo): 8 MB model
+- Vulnerability (High): Public with no sign-in; shows compliance and hours per supervisor
+- Stability (Low): Daily scheduled refresh
+- Scalability (Low): 8 MB model
 
 | # | Principle | Status | How this tool stands |
 |---|---|---|---|

@@ -6,9 +6,9 @@ Its link is public (anyone with the link opens it); it updates on a schedule (la
 ## 1. Project principles
 
 **Starting point**
-- Vulnerability (Alto): Public with no sign-in; shows staff names, hours and turnover; 5 hidden pages
-- Stability (Bajo): Refresh scheduled several times a day; 5 hidden pages and duplicates
-- Scalability (Medio): 331 MB model with 34 tables of mixed topics; the largest
+- Vulnerability (High): Public with no sign-in; shows staff names, hours and turnover; 5 hidden pages
+- Stability (Low): Refresh scheduled several times a day; 5 hidden pages and duplicates
+- Scalability (Medium): 331 MB model with 34 tables of mixed topics; the largest
 
 | # | Principle | Status | How this tool stands |
 |---|---|---|---|

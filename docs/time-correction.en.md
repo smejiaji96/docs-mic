@@ -6,8 +6,8 @@ Anyone with the link can respond; it is filled in when the event happens. Tasks 
 ## 1. Project principles
 
 **Starting point**
-- Vulnerability (Medio): Public link: anyone who has it can open it and respond; collects supervisor names
-- Stability (Medio): The administrator receives and updates it; response destination to confirm
+- Vulnerability (Medium): Public link: anyone who has it can open it and respond; collects supervisor names
+- Stability (Medium): The administrator receives and updates it; response destination to confirm
 
 | # | Principle | Status | How this tool stands |
 |---|---|---|---|

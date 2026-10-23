@@ -6,9 +6,9 @@ Its link is public (anyone with the link opens it); it is updated by hand (last:
 ## 1. Project principles
 
 **Starting point**
-- Vulnerability (Alto): Public with no sign-in; shows staff names and auditor remarks
-- Stability (Medio): Refreshed manually (last: October 5)
-- Scalability (Bajo): 2 MB model
+- Vulnerability (High): Public with no sign-in; shows staff names and auditor remarks
+- Stability (Medium): Refreshed manually (last: October 5)
+- Scalability (Low): 2 MB model
 
 | # | Principle | Status | How this tool stands |
 |---|---|---|---|

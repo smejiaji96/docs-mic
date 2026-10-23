@@ -6,9 +6,9 @@ Its link is public (anyone with the link opens it); it updates on a schedule (la
 ## 1. Project principles
 
 **Starting point**
-- Vulnerability (Alto): Public with no sign-in; shows sales, targets and store comments; 3 hidden pages
-- Stability (Medio): It updates by itself (last: October 11, 2026); the date and time of the last update are not shown in the report
-- Scalability (Medio): DirectQuery (queries the live source); 30 MB model with 23 tables
+- Vulnerability (High): Public with no sign-in; shows sales, targets and store comments; 3 hidden pages
+- Stability (Medium): It updates by itself (last: October 11, 2026); the date and time of the last update are not shown in the report
+- Scalability (Medium): DirectQuery (queries the live source); 30 MB model with 23 tables
 
 | # | Principle | Status | How this tool stands |
 |---|---|---|---|

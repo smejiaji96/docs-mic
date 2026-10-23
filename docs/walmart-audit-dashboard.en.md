@@ -6,9 +6,9 @@ Its link is public (anyone with the link opens it); it updates on a schedule (la
 ## 1. Project principles
 
 **Starting point**
-- Vulnerability (Alto): Public with no sign-in; shows names and free-text comments; 3 hidden pages
-- Stability (Bajo): Scheduled refresh; last: October 12, 2026
-- Scalability (Bajo): 5 MB model
+- Vulnerability (High): Public with no sign-in; shows names and free-text comments; 3 hidden pages
+- Stability (Low): Scheduled refresh; last: October 12, 2026
+- Scalability (Low): 5 MB model
 
 | # | Principle | Status | How this tool stands |
 |---|---|---|---|

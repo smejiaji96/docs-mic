@@ -6,9 +6,9 @@ Its link is public (anyone with the link opens it); it updates on a schedule (la
 ## 1. Project principles
 
 **Starting point**
-- Vulnerability (Alto): Public with no sign-in; shows customer sales and inventory; 1 hidden page
-- Stability (Medio): Scheduled refresh; last: October 12, 2026; a page showing zeros
-- Scalability (Medio): 44 MB model with 16 tables and about 148 slicers
+- Vulnerability (High): Public with no sign-in; shows customer sales and inventory; 1 hidden page
+- Stability (Medium): Scheduled refresh; last: October 12, 2026; a page showing zeros
+- Scalability (Medium): 44 MB model with 16 tables and about 148 slicers
 
 | # | Principle | Status | How this tool stands |
 |---|---|---|---|

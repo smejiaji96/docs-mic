@@ -6,9 +6,9 @@ It is entered only through the Portal (only people with access to the Portal); i
 ## 1. Project principles
 
 **Starting point**
-- Vulnerability (Bajo): It is entered only through the Portal; only people with access to the Portal can get in (according to the inventory owner)
-- Stability (Bajo): Scheduled refresh; last: October 7, 2026 (according to the active report in the Portal)
-- Scalability (Bajo): 12 MB model (according to the previous public link)
+- Vulnerability (Low): It is entered only through the Portal; only people with access to the Portal can get in (according to the inventory owner)
+- Stability (Low): Scheduled refresh; last: October 7, 2026 (according to the active report in the Portal)
+- Scalability (Low): 12 MB model (according to the previous public link)
 
 | # | Principle | Status | How this tool stands |
 |---|---|---|---|

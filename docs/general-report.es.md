@@ -1,6 +1,6 @@
 # Inventario de herramientas MIC · Reporte general (español)
 
-Principios, qué se necesita, plan, tareas, glosario y plan de acción. Versión 1.14. No contiene nombres de personas, correos, teléfonos, tarifas ni enlaces; es información interna.
+Principios, qué se necesita, plan, tareas, glosario y plan de acción. Versión 1.20. No contiene nombres de personas, correos, teléfonos, tarifas ni enlaces; es información interna.
 
 ## Contenido
 
@@ -277,7 +277,7 @@ SC-006: Las líneas pendientes de la documentación bajan de 32 a menos de 10.
 - La documentación actual del inventario es la línea base.
 - Quienes usan los dashboards (district managers, regional managers, field supervisors y administración) deberían tener correo de la empresa con correo Falcon Farms; se verifica al crear los grupos de acceso.
 - Quienes llenan los formularios deberían tener cuenta de la empresa; se verifica antes de limitar el acceso. Hoy no inician sesión.
-- Las 5 aplicaciones quedan fuera de esta versión.
+- Las 4 aplicaciones restantes quedan fuera de esta versión; FIT se analiza aparte.
 - Costo de servir ya se consume por el Portal y su enlace directo puede retirarse, según la responsable del inventario.
 - Los archivos de Excel se actualizan según la necesidad, no por programación.
 - Los gerentes necesitan acceso a toda la información de sus dashboards.
@@ -296,7 +296,7 @@ SC-006: Las líneas pendientes de la documentación bajan de 32 a menos de 10.
 - Acceso, actualización, responsables, fuentes, formularios y glosario.
 
 ### No entra
-- Las 5 aplicaciones (Tallie, AFS Console, Staffing Request, F.I.T. y Portal).
+- Las 4 aplicaciones restantes (Tallie, AFS Console, Staffing Request y Portal). FIT tiene su propio análisis, aparte de este.
 - Reconstruir los reportes o cambiar la definición de las cifras del negocio.
 
 ### Más adelante
